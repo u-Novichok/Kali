@@ -1,1 +1,38 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kali</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header">
+      <img src="icons/icon48.png" alt="Kali Logo" class="logo" />
+      <h1>Kali</h1>
+      <span class="version">v0.1.0</span>
+    </div>
+    <div class="status-bar">
+      <span class="label">Status:</span>
+      <span id="status" class="active">Active</span>
+    </div>
+    <div class="info-row">
+      <span class="label">Blocked Accounts:</span>
+      <span id="count">—</span>
+    </div>
+    <div class="info-row">
+      <span class="label">Last Sync:</span>
+      <span id="lastSync">Never</span>
+    </div>
+    <button id="syncBtn">Sync Now</button>
+    <div id="syncStatus" class="sync-status"></div>
+    <div class="footer">
+      <a href="https://github.com/u-Novichok/Kali" target="_blank">GitHub</a>
+      <span>·</span>
+      <a href="docs/privacy-policy.md" target="_blank">Privacy</a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
