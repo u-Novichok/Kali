@@ -1,1 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
 
+# IDE
+.vscode/
+.idea/
+
+# Extension build artifacts (if any)
+*.zip
+*.crx
+*.pem
+
+# Node modules (if you add any later)
+node_modules/
+
+# Logs
+*.log
